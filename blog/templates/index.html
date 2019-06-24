@@ -1,0 +1,12 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+  <h1>Welcome to my Awesome Blog!</h1>
+  <p>Welcome to the blog, a website developed by <em>Mozilla Developer Network</em>!</p>
+  <h2>Dynamic content</h2>
+  <p>This website has the following record counts:</p>
+  <ul>
+    <li><strong>Blogs:</strong> {{ num_blogs }}</li>
+    <li><strong>Authors:</strong> {{ num_authors }}</li>
+  </ul>
+{% endblock %}
