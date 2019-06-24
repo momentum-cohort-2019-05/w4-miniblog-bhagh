@@ -3,12 +3,12 @@
 {% block content %}
     <h1>Blogger: {{name}}</h1>
     
-    <h3>Bio</h3>
+    <h2>Bio</h2>
     
     <p>{{name.bio}}</p>
     
     {% if blog_list %}
-    <h3>Blogs list</h3>
+    <h2>Posts</h2>
     <ul>
 
       {% for blog in blog_list %}
